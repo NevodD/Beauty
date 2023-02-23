@@ -1,0 +1,87 @@
+.header 
+  margin-top: 50px
+  background: #ffffff
+  @media screen and ( max-width: $tablet-width )
+    margin-top: 0
+  
+
+.header-content
+  border-bottom: 1px solid #EFEFEF
+  height: 120px
+  box-sizing: border-box
+  @media screen and ( max-width: $tablet-width )
+    height: auto
+
+.header-wrapper
+  display: grid
+  grid-template: 1fr / 1fr repeat(2, max-content)
+  justify-content: end
+  align-items: center
+
+
+.header-logo
+  margin-top: 20px
+  margin-bottom: 20px
+  @media screen and ( max-width: $tablet-width )
+    width: 180px
+    height: auto
+
+
+.header-content__link
+  margin-left: 40px
+  color: #000000
+  @media screen and ( max-width: $tablet-width )
+    display: none
+
+
+.header-content__link--feedback
+  width: 170px
+  height: 40px
+  border: 2px solid #66C05D
+  border-radius: 40px
+  font-size: 14px
+
+.header-menu
+  @media screen and ( max-width: $tablet-width )
+    position: absolute
+    top: 0
+    left: 100%
+    background: #fff
+    width: 100vw
+    min-height: 100vh
+    transition: 0.2s linear
+    overflow: auto
+
+
+.header-menu-list
+  height: 79px
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  align-items: center
+  gap: 40px
+  margin: 0
+  @media screen and ( max-width: $tablet-width )
+    flex-direction: column
+    flex-wrap: nowrap
+    justify-content: start
+    margin-top: 100px
+    width: 100vw
+    height: 100vh
+    overflow: auto
+
+
+.header-menu--active
+  left: 0
+
+
+.header-menu-list__item
+  @media screen and ( max-width: $tablet-width )
+    width: 100%
+    height: 50px
+
+.header-menu-list__link
+  text-align: center
+  color: #000000
+
+

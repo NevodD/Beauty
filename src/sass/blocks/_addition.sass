@@ -1,0 +1,87 @@
+.addition
+  margin: 100px 0 133px 0
+  @media screen and ( max-width: $tablet-width )
+    margin-bottom:  100px
+
+
+.addition-wrapper
+  display: grid
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr))
+  gap: 30px
+  color: #ffffff
+  @media screen and ( max-width: $tablet-width )
+    grid-template-columns: repeat(auto-fit, minmax(305px, 1fr))
+  @media screen and ( max-width: 500px )
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr))
+
+
+.addition__item
+  min-height: 212px
+  background: #66C05D
+  box-sizing: border-box
+  padding: 35px 40px
+
+.addition-form
+  background-image: url(../img/addition/addition-form-bg.svg)
+  background-repeat: no-repeat
+  background-position: 89% 50%
+  @media screen and ( max-width: 520px)
+    background-image: none
+
+
+
+
+.addition-form__title 
+  font-size: 18px
+  margin-top: 0
+
+.addition-form__description
+  max-width: 250px
+  font-size: 14px
+  margin-top: 20px
+  margin-bottom: 25px
+  line-height: 143%
+
+.addition-form__input
+  position: relative
+  width: 225px
+  height: 35px
+  border-radius: 30px
+  border: none
+  box-sizing: border-box
+  padding: 0 25px
+  @media screen and ( max-width: $tablet-width )
+    width: 200px
+
+.addition-form__button
+  position: absolute
+  width: 25px
+  height: 32px
+  border-top-right-radius: 30px
+  border-bottom-right-radius: 30px
+  border: none
+  background: #ffffff
+  transform: translate(-25px, 1px)
+  cursor: pointer
+
+.addition-map
+
+.addition-map__title 
+  font-size: 18px
+  margin-top: 0
+
+.addition-map__description
+  max-width: 145px
+  font-size: 14px
+  margin-top: 20px
+  margin-bottom: 25px
+  line-height: 143%
+
+.addition-map__link
+  color: #ffffff
+  font-size: 14px
+  width: 170px
+  height: 35px
+  border: 2px solid #FFFFFF
+  border-radius: 30px
+

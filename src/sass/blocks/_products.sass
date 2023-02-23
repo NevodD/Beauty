@@ -1,0 +1,62 @@
+.products
+
+.products__title
+  padding-top: 57px
+  padding-bottom: 40px
+  margin-top: 21px
+  margin-bottom: 0
+  font-weight: 700
+  font-size: 24px
+  // height: 60px
+  align-items: center
+  background-image: url(../img/products/products-bg.svg)
+  background-repeat: no-repeat
+  background-position: 95.25% 80%
+  @media screen and ( max-width: $tablet-width )
+    background-image: none
+    
+    
+
+.products-list
+  // display: flex
+  // flex-wrap: wrap
+  display: grid
+  gap: 30px
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr))
+  // justify-content: space-between
+  margin: 0
+
+.products-list-item
+  box-sizing: border-box
+  background-color: #ffffff
+  // width: 255px
+  min-height: 363px
+  padding: 25px 30px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: center
+
+.products-list-item__img
+
+.products-list-item__description
+  font-size: 14px
+  color: #333333
+  text-align: center
+  line-height: 143%
+  margin-top: 19px
+
+.products-list-item__price
+  font-weight: 500
+  font-size: 21px
+  letter-spacing: 0.05em
+  flex-grow: 1
+
+.products-list-item__link
+  width: 130px
+  height: 35px
+  background: #66C05D
+  border-radius: 30px
+  font-size: 14px
+  color: #ffffff
+  letter-spacing: 0.05em

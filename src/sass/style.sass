@@ -1,0 +1,50 @@
+@import variables
+@import burger
+
+.visually-hidden:not(:focus):not(:active)
+  position: absolute
+  overflow: hidden
+  clip: rect(0 0 0 0)
+  margin: -1px
+  padding: 0
+  width: 1px
+  height: 1px
+  border: 0
+  white-space: nowrap
+  clip-path: inset(100%)
+
+body
+  margin: 0
+  font-family: 'Roboto', sans-serif
+  background: #EFEFEF
+  overflow-x: hidden
+
+
+.container
+  width: 90%
+  max-width: 1110px
+  margin: auto
+
+.link
+  text-decoration: none
+  padding-top: 6px
+  padding-bottom: 6px
+  display: block
+  box-sizing: border-box
+  
+.list
+  list-style: none
+  padding-left: 0
+
+.button-link
+  display: flex
+
+.button-link-text
+  margin: auto
+  
+
+@import blocks/header
+@import blocks/offer
+@import blocks/footer
+@import blocks/products
+@import blocks/addition
