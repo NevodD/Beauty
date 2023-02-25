@@ -368,6 +368,7 @@ body {
 
 .offer__img {
   margin-right: -68px;
+  height: auto;
 }
 @media screen and (max-width: 1110px) {
   .offer__img {
